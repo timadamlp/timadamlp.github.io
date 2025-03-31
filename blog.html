@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog - Logo & Brand Design Hub</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Logo & Brand Design Hub</div>
+            <div class="menu">
+                <a href="index.html" class="menu-item">Home</a>
+                <a href="services.html" class="menu-item">Services</a>
+                <a href="reviews.html" class="menu-item">Reviews</a>
+                <a href="blog.html" class="menu-item">Blog</a>
+                <a href="about.html" class="menu-item">About Us</a>
+                <a href="contact.html" class="menu-item">Contact</a>
+            </div>
+        </nav>
+    </header>
+
+    <div class="page-header">
+        <div class="container">
+            <h1>Blog</h1>
+            <p>Insights and guides on brand design and logo creation</p>
+        </div>
+    </div>
+
+    <section class="content">
+        <div class="container">
+            <div class="blog-list">
+                <div class="blog-card">
+                    <div class="blog-image">
+                        <img src="https://placehold.co/600x300/6351ce/white?text=Logo+Design" alt="Logo Design">
+                    </div>
+                    <div class="blog-content">
+                        <h2>Why a Professional Logo is Crucial for Startups</h2>
+                        <p class="blog-meta">Published on March 15, 2024 | Brand Strategy</p>
+                        <p>In today's competitive market, brand identification is more important than ever before. Research shows that consumers form their first impression of a company within the first 7 seconds of seeing its visual elements...</p>
+                        <a href="blog/logo-importance.html" class="btn">Read More</a>
+                    </div>
+                </div>
+
+                <div class="blog-card">
+                    <div class="blog-image">
+                        <img src="https://placehold.co/600x300/6351ce/white?text=Brand+Identity" alt="Brand Identity">
+                    </div>
+                    <div class="blog-content">
+                        <h2>5 Steps to Create a Successful Brand Identity</h2>
+                        <p class="blog-meta">Published on March 20, 2024 | Brand Guide</p>
+                        <p>Creating a strong brand identity is essential for businesses of any size, but it can be particularly challenging for small businesses and startups with limited resources. This guide will walk you through the five essential steps...</p>
+                        <a href="blog/brand-identity.html" class="btn">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="copyright">© 2024 Logo & Brand Design Hub</div>
+            <div class="social-links">
+                <a href="#" class="social-link">LinkedIn</a>
+                <a href="#" class="social-link">Twitter</a>
+                <a href="#" class="social-link">Instagram</a>
+            </div>
+        </div>
+    </footer>
+
+    <style>
+        .blog-list {
+            display: flex;
+            flex-direction: column;
+            gap: 3rem;
+            margin-bottom: 2rem;
+        }
+        
+        .blog-card {
+            display: grid;
+            grid-template-columns: 1fr 2fr;
+            gap: 2rem;
+            padding: 2rem;
+            border: 1px solid #eee;
+            border-radius: 10px;
+            transition: all 0.3s ease;
+        }
+        
+        .blog-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+        }
+        
+        .blog-image img {
+            width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+        
+        .blog-content h2 {
+            margin-top: 0;
+            text-align: left;
+        }
+        
+        .blog-meta {
+            color: #666;
+            font-style: italic;
+            margin-bottom: 1rem;
+        }
+        
+        @media (max-width: 768px) {
+            .blog-card {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</body>
+</html>
